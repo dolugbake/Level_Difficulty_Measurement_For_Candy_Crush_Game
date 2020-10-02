@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+author: "Simi"
+date: "06/06/2020"
+output: html_document
+---
+
+```{r echo=FALSE}
+Year <-c("2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018")
+GDP <-c(42.56, 44.05, 43.21, 44.93, 46.23, 47.6, 48.17, 48.78, 49.67, 50.9)
+Population <-c(10.53, 10.64,	10.74, 10.85,	10.95,	11.06,	11.18,	11.3,	11.43,	11.57)
+
+Tunisia_data <- data.frame(Year, GDP, Population)
+
+Tunisia_data
+```
+
